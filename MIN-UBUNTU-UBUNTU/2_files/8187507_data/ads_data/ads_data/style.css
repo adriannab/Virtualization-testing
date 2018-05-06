@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 160px;
+    height: 600px;
+    overflow: hidden;
+}
+#eve-ad img, #eve-ad div {
+    display: block;
+    border: 0;
+    outline: 0;
+    position: absolute;
+}
+#eve-ad {
+    width: 160px;
+    height: 600px;
+    overflow: hidden;
+    position: absolute;
+    cursor: pointer;
+}
+#eve-plan {
+    width: 160px;
+    height: 600px;
+    position: relative;
+}
+#eve-logo {
+    right: 30px;
+    top: 30px;
+}
+#eve-1, #eve-2, #eve-3 {
+    opacity: 0;
+    top: 275px;
+    left: 15px;
+}
+
+#eve-arrow {
+    opacity: 0;
+    bottom: 11px;
+    left: 105px;
+}
+
+#eve-packshot {
+    opacity: 0;
+    top: 5px;
+    left: 230px;
+}
+
+#eve-bg {
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #ffa22e;
+    transition: background-color .4s cubic-bezier(0.250, 0.460, 0.450, 0.940);
+}
+
+#eve-left {
+    left: 0px;
+    top: 0px;
+}
+
+#eve-btn {
+    right: 25px;
+    bottom: 15px;
+}
+
+.eve-start #eve-btn {
+    opacity: 0;
+    -webkit-animation: appear 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 2.7s;
+    animation: appear 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 2.7s;
+    animation-fill-mode:forwards;
+}
+
+.eve-start #eve-1 {
+    opacity: 0;
+    transform: translateX(-60px);
+    -webkit-animation: appear-hide 3.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0s;
+    animation: appear-hide 3.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0s;
+    animation-fill-mode:forwards;
+}
+
+.eve-start #eve-2 {
+    opacity: 0;
+    transform: translateX(-60px);
+    -webkit-animation: appear-hide 3.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 3.5s;
+    animation: appear-hide 3.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 3.5s;
+    animation-fill-mode:forwards;
+}
+
+.eve-start #eve-3 {
+    opacity: 0;
+    transform: translateX(30px);
+    -webkit-animation: appear .6s cubic-bezier(0.250, 0.460, 0.450, 0.940) 7s;
+    animation: appear .6s cubic-bezier(0.250, 0.460, 0.450, 0.940) 7s;
+    animation-fill-mode:forwards;
+}
+
+@-webkit-keyframes appear {
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes appear {
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes appear-hide {
+    0% {
+        transform: translateX(30px);
+        opacity: 0;
+    }
+    10% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    90% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(-30px);
+        opacity: 0;
+    }
+}
+@keyframes appear-hide {
+    0% {
+        transform: translateX(30px);
+        opacity: 0;
+    }
+    10% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    90% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(-30px);
+        opacity: 0;
+    }
+}

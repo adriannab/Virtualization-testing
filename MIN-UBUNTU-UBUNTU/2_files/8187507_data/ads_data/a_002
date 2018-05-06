@@ -1,0 +1,9 @@
+Adform=window.Adform||{};
+Adform.host="https://track.adform.net";
+Adform.shost="https://s1.adform.net";
+Adform.scriptBase=Adform.shost+"/banners/scripts/";
+Adform.cache="609";
+Adform.ADFBannerData={"URL":"https://track.adform.net/adfserve/?bn=22183526;rtbwp=Wu8M7QAODQMKmoCMAAzpUCS8RPklCz6IsslhvA;rtbdata=x-QconeWRJpbnlc0qtyT0eb24JCmO36va05Dc9uaTkCBDqLO0EqUyj3km0HJD7FsRl5hEqHJ9Bfxnri-HaxP4PZ3zsezfGTai_M-Xa3QbQGLW8QuboRiIMaE6t0eKI_Rwf1eB1gSrjIWoFSAJ3ETklokYRRwf_l4ZKC5zahVSquag0nNn_TStIm4Gy6h9emYLBB746DVmJFCl3wh6vYGZsNr1mPaa2dBKhQi5ZrXH5rq2oIs-ZhOPJ7m109onDI-AZTqAv8VNvyVssFwilRnsaQF4kkqyKa7w3iI60gHGBc1;nofp=1;click=https://adclick.g.doubleclick.net/aclk?sa=L&ai=C1_iV7QzvWoOaOIyB6gTQ0rOYAsXHn71NvtC4heUCwI23ARABIABg6eS-hcAaggEXY2EtcHViLTg2OTU3MjcyODc2Nzg2MzXIAQmpAjS18vmqjIU-qAMBqgSTAU_QI4nVXjUbd3zoyczpJLNnTxSAGEXmPtER5sSIMadOm0L0Tz93-LFTv_DoAr32EcNorfYrvwP00M7Wdlf9-jqeHP5tzj14Tyc7OjJjWOiKp1U5v6pmiiOIW_eSZro7JmEuIf7pCWlzg03vHgBiYRxmaKABXvY5YhVvchgWJVKVdgATglrwmByoFeuUkQo7ctw72YAGwLOa_ZSOm4LuAaAGIagHpr4b2AcA0ggFCIABEAE&num=1&sig=AOD64_1nr8epjqeH5bvOjb5tGSnF2D-nQw&client=ca-pub-8695727287678635&adurl=","CREFURL":"https%3a%2f%2fgoogleads.g.doubleclick.net%2fpagead%2fads%3fclient%3dca-pub-8695727287678635%26output%3dhtml%26h%3d600%26slotname%3d3074847303%26adk%3d2948151780%26adf%3d3268030700%26w%3d160%26lmt%3d1525615853%26format%3d160x600%26url%3dhttp%253A%252F%252Fbrowser.geekbench.com%252Fv4%252Fcpu%252F8187507%26flash%3d29.0.0%26wgl%3d1%26dt%3d1525615853786%26bpp%3d4%26bdt%3d1006%26fdt%3d10%26idt%3d66%26s","BN":22183526};
+if(!Adform.ADFBannerParams)Adform.ADFBannerParams=[];
+Adform.ADFBannerParams.push(Adform.ADFBannerData);
+typeof Adform.ADFUtilInstance=="undefined"?document.write('<scr'+'ipt type="text/javascript" src="https://s1.adform.net/stoat/609/s1.adform.net/bootstrap.js"></scr'+'ipt>'):new Adform.ADFBanner();
